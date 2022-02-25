@@ -1,0 +1,1 @@
+SELECT months * salary AS e, COUNT(NAME) FROM Employee GROUP BY e ORDER BY e DESC LIMIT 1
