@@ -1,2 +1,2 @@
-set @number = 21;
-select repeat('* ', @number := @number - 1) from information_schema.tables
+SET @i = 21;
+SELECT REPEAT('* ', @i := @i - 1) FROM INFORMATION_SCHEMA.TABLES WHERE @i > 0
