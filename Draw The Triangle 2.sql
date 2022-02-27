@@ -1,0 +1,2 @@
+SET @i := 0;
+SELECT REPEAT('* ', @i := @i + 1) FROM INFORMATION_SCHEMA.TABLES WHERE @i < 20
